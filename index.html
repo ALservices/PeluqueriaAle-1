@@ -1,89 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat+Alternates:ital,wght@1,100&family=Poppins:wght@100&family=Roboto:wght@300&family=Spartan:wght@200;300&display=swap" rel="stylesheet">
-    
 
-    
-    <link rel="stylesheet" href="./resources/style.css">
-    <title>Peluqueria Ale</title>
-</head>
-<body>
-    
-    <header>
-        <div class="box-decoration"></div>
-        <div class="logo"><img src="/resources/img/logo.png" alt="logo"></div>
-        
-        <div class="title">
-            <h1>Peluquería</h1>
-            <h1>Ale</h1>
-           </div>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 
-           <div class="descripcion-titulo">
-               <h2>10 años de trayectoria</h2>
-           </div>
-
-           <div class="box-decoration-left"></div>
-    </header>
-    
-    <nav>
-
-       <li class="nav">  <!-- Hacer que los links funcionen con id -->
-            <a href="#turnos">Turnos</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#tendencias">Tendencias</a>
-            <a href="#tienda">Tienda</a>
-        </li>
-
-        <div>
-            <img class="img1" src="/resources/img/imagen1.png" alt="">
-            <img class="img2" src="/resources/img/imagen2.png" alt="">
-            <img class="img3" src="/resources/img/imagen3.png" alt="">
-        </div>
-
-        <div class="vector">
-        <img class="wave1" src="/resources/img/Vector 3.png" alt="">
-        <img class="wave3" src="/resources/img/Vector 1.png" alt="">
-        <img class="wave2" src="/resources/img/Vector 4.png" alt="">
-        </div>
-    </nav>
-
-    <section>
-    <div id="servicios">
-        <h2 id="servicios-style">Servicios</h2>
-    </div>
-
-    
-<!-- Title cards -->
-        <li class="cards-servicios">
-            <a href="Cortes"></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href="">Brushing/Tratamientos</a>
-            <a href=""></a>
-        </li>
-    
-    <div class="cards-servicios">
-    <div class="item1">Cortes</div>
-    <div class="item2">Color</div>
-    <div class="item3">Peinados</div>
-    <div class="item4">Lavado</div>
-    <div class="item5">Tratamientos</div>
-    <div class="item6">Extensiones</div>
-    </div>
-
-    </section>
-
-
-    <footer></footer>
    
 
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./resources/style.css" media>
+    <link rel="stylesheet" href="./resources/normalize.css">
+
+    <title>Peluqueria Ale</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- <div class="box-decoration"></div> -->
+        <!-- <div class="logo"><img src="./resources/img/logo.png" alt="logo"></div> -->
+
+        <!-- <div class="descripcion-titulo">
+               <h2>10 años de trayectoria</h2>
+           </div> -->
+
+        <!-- <div class="box-decoration-left"></div> -->
+
+
+        <nav class="header-nav">
+                <div class="header-logo">
+                    <a href="#">
+                      <p class="name-salon">PELUQUERÍA ALE UNISEX</p>
+                            <!-- <img class="logo-img" src="./resources/img/icon-logo.png" alt=""> -->
+                    </a>
+                </div>
+
+                <!-- Navbar -->
+                
+
+                <ul class="navbar">
+                    <a href="#home" class="text-nav">Inicio</a>
+                    <a href="#about-me" class="text-nav">Sobre mi</a>
+                    <a href="#services" class="text-nav">Servicios</a>
+                    <a href="#trend" class="text-nav">Tendencias</a>
+                    <a href="#contact" class="text-nav">Contacto</a>
+                </ul>
+
+                <div class="container-icon">
+                    <i class="fas fa-search icon-nav"></i>
+                    <i class="far fa-heart icon-nav"></i>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Carousel de imagenes -->
+      <section class="home">
+          
+        <div class="carousel">
+            <button class="carousel-button prev"><img class="icon-carousel" src="/resources/img/arrow-prev.ico" alt=""></button>
+            <button class="carousel-button next"><img class="icon-carousel" src="/resources/img/arrow-next.ico" alt=""></button>
+
+            <ul>
+              <li class="slide" data-active>
+                <img src="/resources/img/products.jpg" class="d-block w-100" alt="">
+              </li>
+              <li class="slide" data-active>
+                <img src="/resources/img/products.jpg" class="d-block w-100" alt="">
+              </li>
+            </ul>
+
+            <div class="title">
+              <h2 class="text">No te pierdas las <span class="bold-text">nuevas</span><span class="bold-text">tendencias</span></h2>
+                <form class="info-button">
+                  <button class="more-button">
+                    <span>Ver más</span>
+                  </button>
+                </form>
+            </div>
+
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="00000" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,202.7C384,181,480,171,576,186.7C672,203,768,245,864,266.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+            
+          </div>
+        </div>
+      </section>
+      
+  
+
+      <section id="services">
+        <div class="container-services">
+            <h2 class="text-services">Nuestros servicios</h2>
+            <i class="fa-thin fa-scissors"></i>
+        </div>
+      </section>
+
+
+      <!-- Title cards -->
+      <!-- <li class="cards-services">
+              <a href="Cortes"></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+          </li> -->
+
+      <!-- <div class="cards-servicios">
+      <div class="item1">Cortes</div>
+      <div class="item2">Color</div>
+      <div class="item3">Peinados</div>
+      <div class="item4">Lavado</div>
+      <div class="item5">Tratamientos</div>
+      <div class="item6">Extensiones</div>
+      </div> -->
+
+      <!-- </section> -->
+
+
+
+    <!-- <footer>
+            <div id="#turnos">
+                <h2>Turnos</h2>
+            </div>
+    </footer> -->
+
+
 </body>
+
 </html>
