@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluquería Ale - Tienda</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-shrink" id="nav_back">
+        <div class="container-fluid contain-nav">
+          <a class="navbar-brand titulo ps-2" href="#"><img src="/assets/logo/logo-title.png" style="width: 4rem;" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Turnos</a>
+                  </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#wash">Lavado</a></li>
+                        <li><a class="dropdown-item" href="#court">Cortes</a></li>
+                        <li><a class="dropdown-item" href="#color">Color</a></li>
+                        <li><a class="dropdown-item" href="#brushing">Brushing | Tratamientos</a></li>
+                        <li><a class="dropdown-item" href="#hair">Peinados</a></li>
+                        <li><a class="dropdown-item" href="#extension">Extensiones</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tienda" tabindex="-1" aria-disabled="true">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tendencia" tabindex="-1" aria-disabled="true">Tendencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#marca" tabindex="-1" aria-disabled="true">Marcas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+        <!-- Market -->
+        <section id="tienda" class="container mt-5">
+            <div class=" contain-title">
+                <h2>Tienda</h2>
+            </div>
+            <div class="contain-subtitle">
+                <p>Productos Capilares</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4 g-4 flex-wrap">
+                <div class="col">
+                  <div class="card">
+                    <img src="/assets/tienda/4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Cera Capilar</h5> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/assets/tienda/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Shock</h5> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/assets/tienda/1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Aceite Capilar</h5> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <img src="/assets/tienda/3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <!-- <h5 class="card-title">Aceite Capilar</h5> -->
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contain-subtitle mt-3">
+                <p>Makeup</p>
+            </div>
+            <div class="contain-subtitle mt-3">
+                <p>Perfumería</p>
+            </div>
+            <!-- <div class="contain-button">
+                <button class="button-34" role="button">Ver más productos</button>
+            </div> -->
+            <div class="contain-subtitle mt-3">
+                <p>Manicure</p>
+            </div>
+            <div class="contain-subtitle mt-3">
+                <p>Skincare</p>
+            </div>
+            <div class="contain-subtitle mt-3">
+                <p>Accesorios</p>
+            </div>
+        </section>
+        
+    
+</body>
+</html>

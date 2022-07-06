@@ -1,0 +1,396 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: white;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0 !important;
+      -ms-flex-positive: 0 !important;
+          flex-grow: 0 !important;
+}
+
+.nav-link, .dropdown-item, .nav-item a, .nav-item a:hover, .nav-item a:active {
+  font-family: "Poppins", "sans-serif ";
+  color: black;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.carousel-item {
+  height: 580px;
+  width: 100%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+.img-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.caption .title-caption {
+  font-family: "Montserrat Alternates", "sans-serif";
+  color: #65142C;
+  font-size: 5rem;
+}
+
+.caption {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.caption h2 {
+  font-size: 5rem;
+}
+
+.icon-caption {
+  margin-top: 2rem;
+}
+
+.icon-caption a {
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+figure {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 375px;
+  height: 367px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+
+figure:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+figure:hover img {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+figure:hover figcaption {
+  bottom: 0;
+}
+
+figure h1 {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 1;
+}
+
+figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: -33%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  line-height: 1;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+figure figcaption h3 {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+figure figcaption p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+figure figcaption button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.contain-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contain-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contain-title {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+}
+
+.contain-title h2 {
+  font-family: "Poppins", "sans-serif ";
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.096);
+}
+
+.contain-subtitle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-family: "Poppins", "sans-serif ";
+  font-size: 1.5rem;
+}
+
+.card img {
+  width: 14rem;
+  margin: 0 auto;
+}
+
+.contain-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.button-34 {
+  background: #9f2653;
+  background: linear-gradient(225deg, #9f2653 32%, #d71a5c 70%, #b6208b 92%);
+  border-radius: 999px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-family: "Poppins", "sans-serif ";
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.contain-trends {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  background-color: transparent !important;
+}
+
+.contain-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contain-sponsor img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Whatsapp */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 40px;
+  z-index: 100;
+}
+
+i {
+  padding-left: 13px;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: left;
+  font-family: "Poppins", "sans-serif ";
+  padding: 15px 30px 0;
+}
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  -webkit-transition: ease .25s;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: ease .25s;
+  transition: ease .25s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+  .caption h2 {
+    font-size: 3rem;
+    color: white;
+  }
+  .contain-title h2 {
+    font-size: 4rem;
+  }
+  .icon-caption a {
+    color: white;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .caption h2 {
+    font-size: 5rem;
+  }
+  .contain-title h2 {
+    font-size: 10rem;
+  }
+  .icon-caption a {
+    color: black;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
