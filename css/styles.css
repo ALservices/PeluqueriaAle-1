@@ -293,6 +293,11 @@ figure figcaption button {
   display: flex;
 }
 
+.trend-salon {
+  color: #B6208B;
+  font-weight: bold;
+}
+
 .card {
   background-color: transparent !important;
 }
